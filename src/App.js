@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>JavaScript opens up endless possiblilities </p>
+      <p>JavaScript is the top dog </p>
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
