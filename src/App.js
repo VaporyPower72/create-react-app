@@ -16,7 +16,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        I love lamp
+        Welcome to Codaisseur!
       </a>
     </div>
   );
