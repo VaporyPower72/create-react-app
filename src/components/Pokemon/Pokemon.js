@@ -3,8 +3,8 @@ import "./Pokemon.scss";
 
 export default function Pokemon(props) {
   return (
-    <div className="card shadow-sm mb-4 Pokemon">
-      <div class="card-body pb-0 ">
+    <div className="card shadow-sm  mb-4 Pokemon">
+      <div class="card-body pb-0">
         <h5 class="card-title">{props.name}</h5>
         <h6 class="card-subtitle mb-3 text-primary">
           {props.awesome ? "An awesome Pokemon" : "Not awesome"}

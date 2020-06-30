@@ -37,7 +37,7 @@ const all_pokemon = [
 
 function App() {
   return (
-    <main className="container">
+    <main className="container my-5">
       <Title content="Gotta catch 'em all!" />
       <div className="row">
         {all_pokemon.map((pokemon) => (
