@@ -3,6 +3,11 @@ import "./App.css";
 
 import Title from "./components/Title";
 import Pokemon from "./components/Pokemon/Pokemon";
+import LikeCounter from "./components/LikeCounter";
+import LikeButton from "./components/LikeButton";
+import AwesomeAnimals from "./components/AwesomeAnimals";
+import ArticleList from "./components/ArticleList";
+import ArticleCard from "./components/ArticleCard";
 
 const all_pokemon = [
   {
@@ -35,10 +40,39 @@ const all_pokemon = [
   },
 ];
 
+const all_animals = [
+  {
+    name: "Chicken",
+    awesomelvl: 1,
+  },
+  {
+    name: "Porcupine",
+    awesomelvl: 2,
+  },
+  {
+    name: "Killer whale",
+    awesomelvl: 3,
+  },
+  {
+    name: "Sloth",
+    awesomelvl: 4,
+  },
+  {
+    name: "Velociraptor",
+    awesomelvl: 5,
+  },
+];
 function App() {
   return (
     <main className="container my-5">
       <Title content="Gotta catch 'em all!" />
+      <LikeCounter />
+      <LikeButton />
+
+      <ArticleList />
+      <div>
+        <AwesomeAnimals />
+      </div>
       <div className="row">
         {all_pokemon.map((pokemon) => (
           <div className="col-md-6 col-lg-4">
